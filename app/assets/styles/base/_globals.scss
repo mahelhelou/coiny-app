@@ -1,7 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --blue: #227093;
+}
+
+*::selection {
+  background: var(--blue);
+  color: #fff;
+}
 
 body {
   font-family: 'Lato', sans-serif;
+  font-size: 1.125rem;
 }
 
 h1,
@@ -27,6 +37,7 @@ section {
   }
 
   .section-title {
+    color: $mainBlue;
     font-size: 2.5rem;
     font-weight: 700 !important;
     text-align: center;
@@ -50,8 +61,14 @@ section {
 
 .section-subtitle {
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 2rem;
   margin-bottom: 1rem;
+
+  &--smaller {
+    font-size: 1.5rem;
+    font-style: italic;
+    // font-weight: 100;
+  }
 
   @include responsive(atSmall) {
     font-size: 1.25rem !important;

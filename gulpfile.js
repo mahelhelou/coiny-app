@@ -10,6 +10,7 @@ const concat = require('gulp-concat')
 // Global packages
 const browserSync = require('browser-sync').create()
 const rename = require('gulp-rename')
+const ghPages = require('gulp-gh-pages')
 
 // Compile sass into CSS
 function styles() {
@@ -70,9 +71,17 @@ function watchFiles() {
 	watch('app/assets/styles/**/*.scss', series(styles, browserSyncReload))
 	watch('app/assets/scripts/**/*.js', series(scripts, browserSyncReload))
 }
+
+// Deploy to Github pages
+function deploy(cb) {
+	return src('app/**/*').pipe(ghPages())
+}
+
 exports.styles = styles
 exports.scripts = scripts
 exports.browserSyncServe = browserSyncServe
 exports.watchFiles = watchFiles
+exports.deploy = deploy
+
 // Default Gulp Task
 exports.default = series(styles, scripts, browserSyncServe, watchFiles)
