@@ -83,7 +83,7 @@ To get started quickly with a new project using this workflow, please edit the f
 
 ## Resources & Tools
 
-All links & tools that I can use in this project.
+- [High Converting Landing Page](https://webflow.com/blog/high-converting-landing-page)
 
 ## Similar Websites
 
@@ -92,3 +92,16 @@ List of websites that helped me to get an inspiration while designing this proje
 ## Errors & Bugs
 
 List of errors and bugs while I design or develop this project, and how I solved them.
+
+## Knowledge I Gained
+
+### The Different Goals of Landing Pages
+
+1. Generate brand awareness
+2. Boost sales for enterprise customers
+3. Build an email list from lead generation techniques
+4. Educate your audience in some way?
+
+You should determine what outcome you’re looking for before you start designing your page.
+
+Understand your buyer persona! That is: speaking to their pain points, needs, and viewpoints.

@@ -1,0 +1,21 @@
+.how-it-works {
+  .fas {
+    color: $mainGreen;
+  }
+
+  .col-md-4 {
+    position: relative;
+    padding-bottom: 3rem;
+
+    &::after {
+      position: absolute;
+      content: '';
+      width: 10%;
+      height: 0.125rem;
+      background: $mainGreen;
+      left: 50%;
+      bottom: 0;
+      transform: translateX(-50%);
+    }
+  }
+}

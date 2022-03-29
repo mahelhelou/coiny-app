@@ -74,7 +74,7 @@ function watchFiles() {
 
 // Deploy to Github pages
 function deploy(cb) {
-	return src('app/**/*').pipe(ghPages())
+	return src(['app/**/*']).pipe(ghPages())
 }
 
 exports.styles = styles
