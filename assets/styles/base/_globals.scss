@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;500;700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@100;300;400;500;700&display=swap');
 
 :root {
   --blue: #227093;
@@ -10,7 +12,9 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  // font-family: 'Lato', sans-serif;
+  // font-family: 'Roboto', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 1.125rem;
 }
 

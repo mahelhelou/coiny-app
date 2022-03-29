@@ -37,7 +37,6 @@ jQuery(function ($) {
 	$('.authors .owl-carousel').owlCarousel({
 		loop: true,
 		nav: true,
-		// navText : ["<i class='fa fa-chevron-left'></i>","<i class='fa fa-chevron-right'></i>"],
 		autoplay: true,
 		autoplayTimeout: 3500,
 		autoplayHoverPause: true,
@@ -47,13 +46,13 @@ jQuery(function ($) {
 				items: 1
 			},
 			768: {
-				items: 3
+				items: 2
 			},
 			992: {
-				items: 5
+				items: 3
 			},
 			1920: {
-				items: 6
+				items: 4
 			}
 		}
 	})
