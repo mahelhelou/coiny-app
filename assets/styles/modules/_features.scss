@@ -5,10 +5,19 @@
     img {
       height: 375px;
       border: .5rem solid rgba($mainBlue, .25);
+
+      @include responsive(atSmall) {
+        margin-bottom: 1.5rem;
+      }
     }
 
     .section-subtitle {
       text-align: left;
+      font-size: 1.75rem !important;
+    }
+
+    p {
+      font-size: 1.125rem !important;
     }
 
   }
