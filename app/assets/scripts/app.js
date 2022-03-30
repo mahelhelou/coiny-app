@@ -5,8 +5,11 @@ jQuery(function ($) {
 	// Adjust showcase height (100vh)
 	let windowHeight = $(window).height()
 	let windowWidth = $(window).width()
+	let windowWidth = $(window).width()
 
-	$('.showcase').height(windowHeight - navbarHeight)
+	if (windowWidth > 768) {
+		$('.showcase').height(windowHeight - navbarHeight)
+	}
 
 	// Get full year
 	// $('#year').text(new Date().getFullYear())
